@@ -1,0 +1,18 @@
+(use 'midje.repl)
+(doc midje)
+(doc midje-facts)
+(doc midje-repl)
+(autotest)
+(use 'clojure-functions.core)
+(first-element nil :default)
+(first-element '() :default)
+(empty? nil)
+(fact (+ 1 2) => even?)
+(fact (+ 2 2) => even?)
+(reduce 3)
+(autotest)
+exit
+(use 'midje.core)
+(use 'midje.repl)
+*ns*
+(autotest)
