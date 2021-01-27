@@ -11,3 +11,4 @@ The project uses [Midje](https://github.com/marick/Midje/).
 `lein midje :autotest` will run all the tests indefinitely. It sets up a
 watcher on the code files. If they change, only the relevant tests will be
 run again.
+# core-functions
