@@ -16,3 +16,16 @@ exit
 (use 'midje.repl)
 *ns*
 (autotest)
+(in-ns '(sample.core))
+ls
+ns
+*ns*
+(count {:key "value" :total "mayhem"})
+(first {:key "value})
+)
+))))
+exit
+()
+(first {:key "value :total "hello"})
+(map (fn [] 2) [1 2 3])
+exit
